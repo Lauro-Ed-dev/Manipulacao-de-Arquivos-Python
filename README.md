@@ -14,7 +14,7 @@ Este repositório contém um script Python simples que lê um arquivo `entrada.t
 - Nenhuma biblioteca externa necessária (usa apenas a stdlib).
 
 ## Arquivos neste diretório
-- `process_text.py` — script Python que realiza o processamento.
+- `main.py` — script Python que realiza o processamento.
 - `entrada.txt` — exemplo de arquivo de entrada (você pode criar/editar).
 - `saida.txt` — arquivo de saída gerado pelo script (será criado/atualizado ao executar).
 
@@ -29,10 +29,10 @@ Linha comum sem problemas.
 
 ## Como executar
 1. Abra um terminal/console.
-2. Navegue até a pasta onde estão `process_text.py` e `entrada.txt`.
+2. Navegue até a pasta onde estão `main.py` e `entrada.txt`.
 3. Execute:
 ```bash
-python process_text.py
+python main.py
 ```
 4. Após a execução, verifique o arquivo `saida.txt` gerado no mesmo diretório.
 
