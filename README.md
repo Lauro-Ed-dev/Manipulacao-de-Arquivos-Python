@@ -67,13 +67,3 @@ Você pode criar um pequeno teste manual:
 ```bash
 diff entrada.txt saida.txt
 ```
-Note que `diff` mostrará diferenças; como objetivo é que `saida.txt` seja diferente (processado), use `diff` com um arquivo de referência esperado para validar.
-
-## Possíveis melhorias
-- Adicionar opção de linha de comando para personalizar nomes de arquivos (ex.: `--in`, `--out`).
-- Permitir escolher entre remover linhas que contenham substrings ou apenas palavras inteiras.
-- Adicionar testes automatizados (pytest) cobrindo casos com maiúsculas, plural e linhas com "ignorar".
-- Suportar processamento recursivo de diretórios ou múltiplos arquivos.
-
-## Licença
-Sinta-se livre para usar e adaptar este código conforme necessário. Se for para um projeto público, recomendo adicionar uma licença (ex.: MIT) ao repositório.
